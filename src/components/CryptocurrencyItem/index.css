@@ -1,0 +1,32 @@
+.header-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.header-list-sub-container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-list-sub-container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 13px;
+}
+li {
+  list-style-type: none;
+}
