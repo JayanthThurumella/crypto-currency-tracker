@@ -14,7 +14,7 @@ class CryptocurrenciesList extends Component {
 
   getCryptocurrencyDetails = async () => {
     const response = await fetch(
-      ' https://apis.ccbp.in/crypto-currency-converter',
+      'https://apis.ccbp.in/crypto-currency-converter',
     )
 
     const details = await response.json()
